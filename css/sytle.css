@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'OPPOSans';
+    src: url('../font/OPPOSans-L.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    height: 100%;
+    /* 确保页面高度为100% */
+    margin: 0;
+    /* 去掉默认的边距 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(251, 238, 222);
+    background-size: cover;
+    font-family: 'OPPOSans';
+}
+
+h2 {
+    font-size: 2.9em;
+}
+
+p {
+    font-size: 1.8em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* 卡片之间的间隔 */
+    padding: 20px;
+    height: 100vh;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.3);
+    /* 更深的背景色，增加透明度 */
+    backdrop-filter: blur(8px);
+    /* 增加模糊效果 */
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.link-card {
+    background: rgba(0, 0, 0, 0.4);
+    /* 更深的背景色，增加透明度 */
+    border-radius: 10px;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    margin: 5px;
+}
+
+.link-card:hover {
+    transform: scale(1.1);
+}
+
+.link-card:active {
+    transform: scale(0.95);
+}
+
+.avatar {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.avatar:hover {
+    transform: scale(1.04);
+    /* 鼠标悬停时放大 */
+}
+
+.avatar:active {
+    transform: scale(0.96);
+    /* 点击时缩小 */
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.icon {
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}

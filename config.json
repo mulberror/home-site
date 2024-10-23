@@ -1,0 +1,19 @@
+{
+    "favicon": {
+        "link": "/img/64x64.png"
+    },
+    "contact": {
+        "github": {
+            "icon": "/icon/github.png",
+            "link": "https://github.com/mulberror"
+        },
+        "blog": {
+            "icon": "/icon/Blog.svg",
+            "link": "https://blog.mulbx.top"
+        },
+        "email": {
+            "icon": "/icon/email.png",
+            "link": "mailto:mulberror@gamil.com"
+        }
+    }
+}

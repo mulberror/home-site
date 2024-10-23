@@ -1,0 +1,47 @@
+.contact-card {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* 缩小 contact-card 的内边距 */
+}
+
+#icons-container {
+    display: flex;
+    justify-content: space-around; /* 修改为等分间距 */
+    align-items: center;
+    /* 垂直居中 */
+    margin: 3px 0;
+    /* 调整上下外边距 */
+    padding: 2px 0;
+    /* 调整上下内边距 */
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+    /* 鼠标悬停时放大 */
+}
+
+.icon:active {
+    transform: scale(0.9);
+    /* 点击时缩小 */
+}
+
+
+.icon img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    color: none;
+}

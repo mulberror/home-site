@@ -1,0 +1,10 @@
+.profile-card {
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    backdrop-filter: none;
+    filter: none;
+    border: none;
+    background: none;
+}
