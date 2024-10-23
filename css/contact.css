@@ -4,6 +4,7 @@
     padding-left: 20px;
     padding-right: 20px;
     /* 缩小 contact-card 的内边距 */
+    margin: 10px;
 }
 
 #icons-container {
